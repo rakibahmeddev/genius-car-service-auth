@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getAuth} from 'firebase/auth';
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey:process.env.REACT_APP_apiKey,
-  authDomain:process.env.REACT_APP_authDomain,
-  projectId:process.env.REACT_APP_projectId,
-  storageBucket:process.env.REACT_APP_storageBucket,
-  messagingSenderId:process.env.REACT_APP_messagingSenderId,
-  appId:process.env.REACT_APP_appId,
+  apiKey: "AIzaSyA7j5PkMtaJqBiiBwWMdyXlWqoWrG3HXfY",
+  authDomain: "car-servicing-dbb61.firebaseapp.com",
+  projectId: "car-servicing-dbb61",
+  storageBucket: "car-servicing-dbb61.appspot.com",
+  messagingSenderId: "1089470394907",
+  appId: "1:1089470394907:web:e2dfa374491d2779aa7ebe",
 };
 
 // Initialize Firebase
